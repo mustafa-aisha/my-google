@@ -1,0 +1,148 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2.5em;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    nav ul{
+        flex-direction: row;
+        padding: 10px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    nav li {
+        margin-right: 10px;
+    }
+    
+}
+
+main {
+    width: 50%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+main img {
+    width: 75%;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 35px;
+    border: 1px solid rgb(73, 69, 69);
+}
+
+.btn {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    .a-list,
+    .b-list {
+        padding: 2px;
+        margin: 0;
+    }
+}
+
+.a-list {
+    margin-right: 15px;
+    padding: 5px;
+    border: none;
+}
+
+.b-list {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    padding: 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding: 10px;
+}
+
+.left a,
+.right a {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .bottom {
+        flex-direction: column;
+    }
+
+    .left, 
+    .middle,
+    .right {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+.side a {
+    margin-right: 10px;
+    color: blue;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 700px) {
+    .side {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.side p {
+    margin-right: 20px;
+}
